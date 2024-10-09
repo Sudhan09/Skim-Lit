@@ -22,14 +22,14 @@ cd Skim-Lit
 ```
 
 ### 2. Conda Environment Setup
-You can set up the required environment using the provided 'environment.yml' file:
+You can set up the required environment using the provided *environment.yml* file:
 
 ```
 conda env create -f environment.yml
 conda activate skimlit-env
 ```
 
-Alternatively, you can install the required packages using 'requirements.txt':
+Alternatively, you can install the required packages using `requirements.txt`:
 
 ```
 pip install -r requirements.txt
@@ -44,17 +44,17 @@ Once the environment is set up, you can start by running the Jupyter notebook in
 ```
 jupyter notebook
 ```
-Open the 'SkimLit_nlp_project.ipynb' notebook and run the cells to train and evaluate the model.
+Open the `SkimLit_nlp_project.ipynb` notebook and run the cells to train and evaluate the model.
 
 ### Features
 
-=> Data Preprocessing: Preprocesses the scientific abstracts by tokenizing and creating word embeddings using TensorFlow and Spacy.
-=> Modeling: Uses TensorFlow models such as EfficientNet to classify text into respective sections of a scientific abstract.
-=> Evaluation: Includes accuracy and loss metrics to assess model performance.
+- **Data Preprocessing:** Preprocesses the scientific abstracts by tokenizing and creating word embeddings using TensorFlow and Spacy.
+- **Modeling:** Uses TensorFlow models such as **EfficientNet** to classify text into respective sections of a scientific abstract.
+- **Evaluation:** Includes accuracy and loss metrics to assess model performance.
 
 ### Large Files Warning
 
-The dataset files, such as `.7z` and `.zip` formats, are large. It is recommended to use Git LFS (Large File Storage) to handle these files. For more information on setting up Git LFS, refer to Git LFS Documentation: https://git-lfs.github.com/.
+The dataset files, such as `.7z` and `.zip` formats, are large. It is recommended to use Git LFS (Large File Storage) to handle these files. For more information on setting up Git LFS, refer to Git [LFS Documentation](https://git-lfs.github.com/).
 
 ### Contributing
 
