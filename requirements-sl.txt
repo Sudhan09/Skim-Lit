@@ -1,0 +1,13 @@
+
+numpy>=1.18.5
+pandas>=1.0.5
+scikit-learn>=0.23.1
+tensorflow>=2.3.0
+tensorflow-hub>=0.9.0
+matplotlib>=3.2.2
+spacy>=3.0.0
+nltk>=3.5
+transformers>=4.0.0
+tensorflow-text>=2.3.0
+jupyter>=1.0.0
+ipython>=7.16.1
