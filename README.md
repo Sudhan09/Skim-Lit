@@ -56,13 +56,5 @@ Open the `SkimLit_nlp_project.ipynb` notebook and run the cells to train and eva
 
 The dataset files, such as `.7z` and `.zip` formats, are large. It is recommended to use Git LFS (Large File Storage) to handle these files. For more information on setting up Git LFS, refer to Git [LFS Documentation](https://git-lfs.github.com/).
 
-### Contributing
 
-Feel free to submit a pull request or raise issues if you encounter bugs or have suggestions for improvements.
 
-```
-
-If you don't plan to add any license, this version is good to go. If you change your mind and want to include a license later, you can always update the README to reflect that.
-
-Let me know if you'd like any further adjustments!
-```
